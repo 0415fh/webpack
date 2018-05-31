@@ -67,13 +67,7 @@
 /* 0 */
 /***/ (function(module, exports) {
 
-let func = () => {};
-const num = 23;
-let arr = [4,2,3]
-let arrB = arr.map(item => item *2);
-arr.includes(8)
-
-console.log('new Set(arrB)', new Set(arrB))
+throw new Error("Module build failed: TypeError: this.setDynamic is not a function\n    at PluginPass.pre (/Users/fenghui/study/webpack/demo1/3-3/node_modules/babel-plugin-transform-runtime/lib/index.js:31:12)\n    at transformFile (/Users/fenghui/study/webpack/demo1/3-3/node_modules/@babel/core/lib/transformation/index.js:78:27)\n    at runSync (/Users/fenghui/study/webpack/demo1/3-3/node_modules/@babel/core/lib/transformation/index.js:45:3)\n    at transformSync (/Users/fenghui/study/webpack/demo1/3-3/node_modules/@babel/core/lib/transform.js:43:38)\n    at Object.transform (/Users/fenghui/study/webpack/demo1/3-3/node_modules/@babel/core/lib/transform.js:22:38)\n    at transpile (/Users/fenghui/study/webpack/demo1/3-3/node_modules/babel-loader/lib/index.js:55:20)\n    at Object.module.exports (/Users/fenghui/study/webpack/demo1/3-3/node_modules/babel-loader/lib/index.js:179:20)");
 
 /***/ })
 /******/ ]);
