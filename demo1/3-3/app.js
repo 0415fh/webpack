@@ -1,9 +1,5 @@
-import "babel-polyfill";
-let func = () => {};
-const num = 23;
-let arr = [4,2,3]
-let arrB = arr.map(item => item *2);
-
-arr.includes(8)
-
-console.log('new Set(arrB)', new Set(arrB))
+let func = () => {}
+const NUM = 45
+let arr = [1,23,3,4]
+let arrB = arr.map( item => item *2)
+console.log('new Set(arrB)', new Set(arrB));
